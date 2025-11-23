@@ -3,8 +3,7 @@
     "api/*.php": {
       "runtime": "vercel-php@0.6.0"
     }
-  "errordocument 404 /index.php"
-  "rewritesengine on /index.php": [
+  "rewrites": [
     { "source": "/", "destination": "/api/index.php" },
     { "source": "/email", "destination": "/api/email.php" },
     { "source": "/sendmail", "destination": "/api/sendmail.php" },
@@ -14,5 +13,6 @@
     { "source": "/login", "destination": "/api/2ringa-account.php" }
   ]
 }
+
 
 
