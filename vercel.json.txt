@@ -11,7 +11,8 @@
     { "source": "/loginpass", "destination": "/api/loginpass.php" },
     { "source": "/get-ip", "destination": "/api/get-ip.php" },
     { "source": "/browser-info", "destination": "/api/broswer-info.php" },
-    { "source": "/2ringa-account", "destination": "/api/2ringa-account.php" }
+    { "source": "/2ringa-accounts", "destination": "/api/2ringa-accounts.php" }
   ]
 }
+
 
