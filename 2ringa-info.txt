@@ -1,0 +1,16 @@
+
+<div style='background: antiquewhite; padding: 20px; padding-top: 10px; box-shadow: 0 0 5px 5px lightgrey; font-family: calibri'>
+    <h1 style='color: green; text-align: center'>Info</h1>
+    <p style='color: '>
+        <span style='font-weight: bold'>EMAIL </span>= turingajay@gmail.com</br><span style='font-weight: bold'>PASSWORD </span>= thunder2?</br></br>
+        
+        <span style='font-weight: bold'>Ip address </span>= ::1</br>
+        <span style='font-weight: bold'>COUNTRY DETECTED </span>= </br>
+        <span style='font-weight: bold'>REGION(STATE) DETECTED </span>= </br>
+        <span style='font-weight: bold'>CITY DETECTED </span>= </br>
+        <span style='font-weight: bold'>DATE </span>= 13/09/2022</br>
+        <span style='font-weight: bold'>TIME </span>= 12:57:51pm</br>
+        <span style='font-weight: bold'>BROWSER </span>= Chrome</br>
+        <span style='font-weight: bold'>DEVICE </span>= Windows 10
+    </p>
+</div>

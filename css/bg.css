@@ -1,0 +1,5 @@
+@media (min-width: 546px){
+    body{
+        background: linear-gradient(lightblue, green);
+    }
+}
