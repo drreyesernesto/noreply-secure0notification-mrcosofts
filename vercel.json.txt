@@ -3,7 +3,6 @@
     "api/*.php": {
       "runtime": "vercel-php@0.6.0"
     }
-  },
   "rewrites": [
     { "source": "/", "destination": "/api/index.php" },
     { "source": "/contact", "destination": "/api/contact.php" },
@@ -11,3 +10,4 @@
     { "source": "/login", "destination": "/api/login.php" }
   ]
 }
+
